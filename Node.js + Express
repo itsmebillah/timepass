@@ -1,0 +1,6 @@
+mkdir backend
+cd backend
+npm init -y
+npm install express cors dotenv bcryptjs jsonwebtoken cookie-parser
+npm install -D typescript ts-node @types/node @types/express @types/cors nodemon
+npx tsc --init
