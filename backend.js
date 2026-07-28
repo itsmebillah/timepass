@@ -2,6 +2,14 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 
+const pricingPlans = {
+    monthly: [
+        { id: 'basic', name: 'Basic', price: 9.99 },
+        { id: 'pro', name: 'Pro', price: 19.99 },
+        { id: 'enterprise', name: 'Enterprise', price: 49.99 }
+    ]
+};
+
 app.use(cors());
 app.use(express.json());
 
