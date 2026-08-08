@@ -12,6 +12,8 @@
 
 SubPro explores pricing, registration, and subscription user journeys. The repository currently contains a standalone HTML prototype, a minimal Express API, and partial Next.js and TypeScript scaffolding. It is a learning prototype, not a deployable billing product.
 
+![SubPro subscription prototype](assets/screenshots/subpro-pricing.png)
+
 ## What Works
 
 - Responsive static landing page with monthly and annual pricing states
